@@ -60,7 +60,7 @@ This is a [sequence diagram](infra/app/apim-oauth/diagrams/diagrams.md) to under
 
 This solution deploys a secure MCP (Model Context Protocol) server infrastructure on Azure. The architecture implements a multi-layered security model with Azure API Management serving as an intelligent gateway that handles authentication, authorization, and request routing.
 
-![overview diagram](overview.png)
+![overview diagram](overview_upd.png)
 
 ### Deployed Azure Resources
 
