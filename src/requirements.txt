@@ -3,3 +3,10 @@
 # Manually managing azure-functions-worker may cause unexpected issues
 
 azure-functions
+azure-identity
+semantic-kernel
+dotenv
+DateTime
+openai==1.70.0
+httpx==0.27.2
+fabric-data-agent-sdk

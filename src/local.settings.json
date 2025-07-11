@@ -2,6 +2,15 @@
     "IsEncrypted": false,
     "Values": {
       "FUNCTIONS_WORKER_RUNTIME": "python",
-      "AzureWebJobsStorage": "UseDevelopmentStorage=true"
+      "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+      "STA_AZURE_AI_AGENT_ID": "Agent ID for StockMarketAnalyzer_agent_mcp",
+      "AIS_AZURE_AI_AGENT_ID": "Agent ID for AISearch_Agent_mcp",
+      "AZURE_AI_AGENT_ENDPOINT": "https://<foundry Service>.services.ai.azure.com/api/projects/<project_id>",
+      "AZURE_AI_AGENT_MODEL_DEPLOYMENT_NAME":"gpt-4o-mini",
+      "AZURE_AI_AGENT_API_VERSION": "2025-05-15-preview",
+      "AZURE_TENANT_ID": "Your Tenant ID",
+      "AZURE_CLIENT_ID": "Your Client ID",
+      "AZURE_CLIENT_SECRET": "Your Client Secret",
+      "base_url": "https://<your_base_url>",
     }
   }
