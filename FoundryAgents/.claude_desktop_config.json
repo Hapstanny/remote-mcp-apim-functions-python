@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+     "fabricdataagent": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "C:/Users/<>/<>/Documents/workspace/AIAgents/FoundryAgent",
+        "run",
+        "dataagent_as_local_server.py"
+      ],
+      "env": {
+        "AZURE_AI_AGENT_ENDPOINT": "https://<foundry-resource>.services.ai.azure.com/api/projects/<project>",
+        "AZURE_AI_AGENT_API_VERSION": "2025-05-15-preview",
+        "AZURE_TENANT_ID": "<>",
+        "VIRTUAL_ENV": "C:\\Users\\<>\\Downloads\\.venv"
+      },
+      "transport": "stdio",
+      "type": null,
+      "cwd": null,
+      "timeout": null,
+      "description": null,
+      "icon": null,
+      "authentication": null
+    }
+    }
+}
